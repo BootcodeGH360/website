@@ -92,7 +92,7 @@ Open `http://localhost:<port>` in your browser to see web version of your Flet a
 
 ## Controls
 
-User interface is made of **Controls** (aka widgets). To make controls visible to a user they must be added to a `Page` or inside other controls. Page is the top-most control. Nesting controls into each other could be represented as a tree with Page as a root.
+User interface is made of **Controls** (aka widgets). To make controls visible to a user they must be added to a `Page` or inside other controls. Page is the top-most control eg. <html> <!--This is where all your code goes--></html> So page acts like the <html> tag that houses all the other tags. But overhere, Page houses all the other widgets. Nesting controls into each other could be represented as a tree with Page as a root.
 
 Controls are just regular Python classes. Create control instances via constructors with parameters matching their properties, for example:
 
